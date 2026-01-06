@@ -53,3 +53,21 @@ This repository contains an **MVP implementation** intended for early testing, l
 
 ## 📁 Project Structure
 
+```text
+lib/
+├── app.dart                 # Root app widget
+├── main.dart                # App entry point
+├── core/                    # Theme, constants, utilities
+├── features/
+│   ├── auth/                # Authentication flow
+│   ├── feed/                # Video feed
+│   ├── create/              # Video upload (placeholder)
+│   ├── profile/             # User profile
+│   └── messages/            # Messaging (MVP placeholder)
+├── services/
+│   ├── auth_service.dart
+│   ├── firestore_service.dart
+│   └── storage_service.dart
+└── widgets/                 # Reusable UI components
+
+```
